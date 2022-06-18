@@ -1,0 +1,266 @@
+{
+  "appName": "Reelgolf",
+  "appDescription": "ReelGOLF™ is the first on-course autonomous videography system that creates PGA® Pro Tour Quality video for the every day golfer. With ReelGOLF™, we discretely place our smart cameras near tee boxes and greens.",
+  "inspiration": {
+    "autonomousVideographer": "Autonomous Videographer",
+    "autonomousVideographerDescription": "ReelGOLF™ created the first Autonomous Videographer…no cables, no smartphones, nobody recording. Just smart AI-enabled cameras that find you and produce a PGA® quality video, just for you.",
+    "autonomousVideographerSecondDescription": "With ReelGOLF™, we strategically place our AI-enabled cameras near the tee-box and green. The multi-view cameras act in concert with one another, finding you, your shot, and the ball to create a video just for you. See ",
+    "chris": "Chris Phillips",
+    "chrisDescription": "Chris is an Award-winning Director of Photography, Chris Phillips is the Chief Videography Advisor for everything video at ReelGOLF™. With more than two decades of experience in sports, news and documentary television, his career includes, six Olympic Games for NBC Sports, covering the invasion of Baghdad for CBS News 60 Minutes, shooting the Ironman World Triathlon and receiving eight Emmy Awards for his work on documentary features for both ESPN and NBC Sports. His recent work includes 30 for 30 series for ESPN and documentaries for The Golf Channel Films, including a series on Ben Hogan.",
+    "chrisPosition": "Chief Videography Advisor.",
+    "jim": "Jim Hollister",
+    "jimDescription": "Jim is the Chief Technology Architect at HIO Media, Inc. with system integration expertise acquired while at Texas Instruments, Pratt & Whitney and Sematech. He is experienced in all aspects of software, product development and deployment, including requirements capture, system architecture, design, test, and implementation. Jim works closely with our product research and technical marketing teams and has architected ReelGOLF™’s communications infrastructure, edge video production, image processing and cloud management solutions. Jim graduated with a Master’s Degree in Engineering from The Georgia Institute of Technology.",
+    "jimPosition": "Chief Technology Architect at HIO Media, Inc.",
+    "journey": "The Journey",
+    "kevin": "Kevin Imes",
+    "kevinDescription": "Kevin is the Founder and CEO of HIO Media, Inc., the creator of ReelGOLF™. He is the visionary of the company and oversees design, development, engineering, and operations. ReelGOLF™ was created during a brief sabbatical from the tech sector while Kevin re-engaged one of his passions, golf. During this time, he recognized the golf industry lacked a way to preserve the memories he created. As an innovator and entrepreneur who previously founded and exited 3 start-ups, he quickly identified a technology solution to capture and share on-course experiences for everyday golfers, and ReelGOLF™ emerged. Kevin holds an MBA from the McCombs School of Business at The University of Texas at Austin and a Bachelor’s Degree of Science in Electrical Engineering from The University of Texas at Austin. He is a prolific inventor with over 100 U.S. and International Patents across multiple industries, including SmartPhone, Mobile Music, IoT, Digital Imaging, Alternative Energy, AI Videography, and now, Golf.",
+    "kevinPosition": "Founder and CEO of HIO Media, Inc., the creators of ReelGOLF™.",
+    "meetTheCreators": "Meet the Creators",
+    "theSolution": "The Solution",
+    "theSolutionDescription": "Golf is a game of patience, a game of persistence, and a game that is seldom viewed anywhere else for everyday golfers…until now.",
+    "theSolutionSecondDescription": "ReelGOLF™ is the first autonomous videography solution created to record on-course golf experiences. The shots that every player either wants to remember…or forget. ReelGOLF™ provides PGA® quality footage of the shots that golfers always talk about after their round, and for days to come. ",
+    "whereItAllBegan": "Where it all began",
+    "whereItAllBeganDescription": "Created after a trip to The Old Course at Saint Andrews, the most hallowed grounds in golf, and a quest to find a way to have golfers remember it. Inspiration happens on The Old Course, and ReelGOLF™ emerged from the fairways, the sand traps, the greens, and the ",
+    "whereItAllBeganSupDescription": " hole at St. Andrews, The Jigger Inn. Our Founder, Kevin Imes, walked away from The Home of Golf® inspired to create a new golf experience for the everyday golfer, the ReelGOLF™ experience."
+  },
+  "courses": {
+    "cardDescription": "We begin with a partnership. With every course we engage, we create a bond with the course, the staff, the players, and the Pros.  ReelGOLF™’s success is fueled by our partner courses! We recognize that your course is your most valuable asset, and work closely with your golf professionals and course administrators to ensure ReelGOLF™ is engaging your players and showcasing your signature holes.",
+    "cardSecondDescription": "In a short period of time, our installation team can install the ReelGOLF™ autonomous videography system with minimal effort. No back-end server integration, or new Wifi or Telecom services are required. ReelGOLF™ was designed as plug-and-play solution. TheReelGOLF™ team manages the design, installation, daily monitoring, and maintenance of the system. ",
+    "cardThirdDescription": " now, and let the world see your course like never before!",
+    "creatingMemories": "Creating Memories",
+    "gettingStarted": "Getting Started How to become a ReelGOLF™ course",
+    "growTheGame": "Grow the Game",
+    "contactReelGOLF": "Contact ReelGOLF™",
+    "contactUs": "Contact us",
+    "growingTheGame": "Growing the Game",
+    "growingTheGamePlus": "+",
+    "growingTheGameDescription": "With every scan of our QR Golf™ code, on-course experiences are created, captured, shared, and remembered forever.  The greatest stories in golf happen on the course every day, and with ReelGOLF™, the memories on your course can be captured, shared, and seen!",
+    "holeInOnes": "Hole-in-Ones!",
+    "promotingYourPros": "Promoting your Pros",
+    "promotingYourProsDescription": "ReelGOLF™ offers a platform for local teaching golf professionals to connect with on-course players. With ReelGOLF™, local teaching Pros can create a unique profile that is shared with golfers as they interact with the App.  Players can text their video to a local pro, breaking down the Player/TeachingPro communication gap.",
+    "promotingYourProsSecondDescription": "At the core of ReelGOLF’s values is to grow the game of golf, one course at a time, by capturing memories and sharing experiences to make the game of golf better, for everyone. ",
+    "reasons": "6 Reasons to Partner with ReelGOLF™",
+    "recordAndShare": "Record and Share",
+    "showOffYourCourse": "Show off your course",
+    "showOffYourCourseDescription": "With a simple scan of the ReelGOLF™ QRGolf™ code located near the tee box, our smart cameras locate your players on the tee box, record their shots and send their videos to them within minutes.  Each video is customized to include your course’s name and logo to grow your brand.  Using the ReelGOLF™ App, your players can view their video, post it to social media, and connect with one of your local teaching Pros to get a complimentary golf tip or schedule a golf lesson. ",
+    "signatureHoles": "Signature Holes",
+    "signaturePar3": "Signature Par 3’s",
+    "signaturePar3Description": "You manicure this hole more than any other on your course.  More water, more fertilizer, more grooming.  It’s one of the reason’s golfer’s come to your course. So why not showcase it in a way that drives players to your course, while allowing them to keep the memory of that experience. ReelGOLF™ uses our multi-view autonomous videographer to ensure we capture the entire shot, tee to green.",
+    "socialMediaReach": "Social Media Reach",
+    "socialMediaStrategyMadeEasy": "Social media strategy, made easy",
+    "socialMediaStrategyMadeEasyDescription": "Social media strategies can be challenging for golf courses.  A golf course’s greatest assets are the course itself and it’s players.  ReelGOLF™ makes it easy for players to share their on-course experiences across social media platforms like Facebook, Instagram, Twitter, and Youtube",
+    "socialMediaStrategyMadeEasySecondDescription": "Imagine if your course could be seen by over 1M viewers each year? With ReelGOLF™ it can. ReelGOLF™ provides the technology that allows your players to organically promote your course, your brand, your signature holes, and your local teaching Pros. ",
+    "socialMediaStrategyMadeEasyThirdDescription": " for more information on how we can help you achieve your social media marketing goals.",
+    "whyReelGolf": "Why ReelGOLF™"
+  },
+  "benefits": {
+    "creatingMemories": "Creating Memories",
+    "creatingMemoriesDescription": "Golfers at all levels can now capture on-course moments in a personalized video, automatically, with little to no effort. Courses can deepen the connection between the course and its golfers by offering the opportunity to record on-course experiences with ReelGOLF’s patented autonomous video technology.  When playing a ReelGOLF™ course, everyday golfers can access video footage of their golf shots as if they were a PGA® Tour Pro featured on the Golf Channel®, CBS Sports®, or NBC Sports®, while preserving that memory forever.",
+    "growTheGame": "Grow the Game",
+    "growTheGameDescription": "A communication barrier exists between the average golfer and local PGA® Teaching Pros.  With the ReelGOLF™ App, golf courses can now promote their local PGA® Teaching Pros.  ReelGOLF™ creates a profile for each of your Golf Pros and, through the App, allows golfers an opportunity to send their videos directly to your Local Pros for a golf tip or schedule a golf lesson.",
+    "holeInOnes": "Find that Hole-in-One!",
+    "holeInOnesDescription": "On average, it takes about 3.500 shots to make a Hole-In-One, and more Hole-in-Ones are made by mid-handicappers (14) than any other group of ",
+    "holeInOnesLinkDescription": " With ReelGOLF™, your Hole-In-One can now be seen. Everyday golfers can now capture and showcase their shot of a lifetime!",
+    "recordAndShare": "Record and Share",
+    "recordAndShareDescription": "For the first time, everyday golfers can easily record a PGA-inspired video of their on-course golf experience. No shaky handheld phones that can only record the a player’s swing while holding up the round. With a simple scan of our QR Golf™code located near the tee box, ReelGOLF™’s smart cameras locate the golfer on the tee box, record their ",
+    "recordAndShareLinkDescription": " and deliver it to the golfer minutes. Players can then view their video, post it to social media, or and even connect with a Local PGA® Pro by getting a free pro tip, or schedule a golf lesson.",
+    "signatureHoles": "Signature Holes",
+    "signatureHolesDescription": "Every course has that hole ...the one every player wants to ace or birdie. With ReelGOLF™, courses can effectively promote signature holes without having to create a drone flyover, or hole layout. As golfers share videos of their golf experiences, the course and its signature holes are promoted through organically created video, ...created and shared every day, with every shot.",
+    "signatureHolesSecondDescription": "The course is ready, and the golfers are there...it’s time to show it off your signature hole to the world!",
+    "socialMediaReach": "Social Media Reach",
+    "socialMediaReachDescription": "A golf course’s social media reach can be created on the course, every day, with every round of golf played.  Using the ReelGOLF™ solution, golf courses can now extend their social media reach as their players promote their course, and its signature holes, organically through the players social media networks. Giving your players away to promote your brand is what ReelGOLF™ was designed to do."
+  },
+  "howItWorks": {
+    "firstShots": "First Shots, Lasting Memories",
+    "firstShotsDescription": "ReelGOLF™ is more than just a recording to capture on an IPhone® or Galaxy® Smartphone. With ReelGOLF™, players create their own memories. ReelGOLF™ stores videos for players to revisit and repost in the future. Consider ReelGOLF™ as a personal golf library that documents the unique golf journey of the everyday golfer. Find a ReelGOLF™ ",
+    "firstShotsDescriptionLink": " to start creating and recording on-course memories today.",
+    "howItWorks": "How it Works",
+    "howItWorksDescription": "When playing a ReelGOLF™ course, you need only to download the ReelGOLF™ App to get access to your video. We have discretely placed our intelligent cameras to record your shot, and send your video to you within minute of arriving to the next hole. Your shot, captured just for you, and delivered in near real time. Just Scan, Shoot, and Share!",
+    "scan": "Scan",
+    "scanDescription": "Upon arrival at our hole, you need only scan our QR Golf™ code placed near your tee box. Our smart cameras will activate and identify you. The ReelGOLF™ App will then let you know it’s time to take your shot.",
+    "share": "Share",
+    "shareDescription": "Within minutes of taking your shot, the ReelGOLF™ App will notify you that your ",
+    "shareDescriptionLink": " is ready to view. With a simple tap of an icon, you can view, share, or even delete your shot. The ReelGOLF™ App even also allows you to share your shot with a Local PGA® Pro, at the course to get a pro tip and a ",
+    "shoot": "Shoot",
+    "shootDescription": "When our cameras are rolling, simply take your shot and our smart cameras will record your outgoing tee shot and the incoming green view of your shot, at the same time. Our Autonomous Videographer combines the views just as if your shot was broadcast on The Golf Channel®, CBS Sports®, or NBC®. ReelGOLF™ adds your name, the course name and logo, the hole number, the distance to pin and ball tracing to your video. Your golf shot is then delivered to you within minutes of arriving at the ",
+    "watchInAction": "Watch it in Action"
+  },
+  "contact": {
+    "address": "Address",
+    "austin": "Austin, Texas 78746",
+    "cardDescription": "Whether you are a golfer, a course owner, or a PGA® Pro, or a future Sponsor, we would like to connect with you.  Follow us on social media  @ReelGOLFVids™ or message us. We look forward to hearing from you.",
+    "contactNumber": "800-931-1885",
+    "contactNumberTitle": "Contact Number",
+    "email": "info@reelgolf.com",
+    "emailTitle": "Email",
+    "error": "Please, check your information and try again.",
+    "pleaseProvideInformation": "Please provide a short description of your business and any questions you have about ReelGOLF™.",
+    "secondAddress": "500 No. Capital of Texas Hwy",
+    "sendUsAMessage": "Send us a Message",
+    "success": "Message sent successfully.",
+    "suite": "Bldg. 2, Suite 204"
+  },
+  "media": {
+    "blogs": "Blogs",
+    "immediateRelease": "For Immediate Release",
+    "articleDescription": "ReelGOLF™ is changing the way golf is viewed forever with the first on-course AI-Enabled Autonomous Videographer",
+    "comingSoon": "Coming Soon",
+    "articleFourthSection": "“With its on-course media platform, ReelGOLF™ is showcasing signature holes for golf courses and changing the way golf is viewed for the everyday golfer”, says Mr. Imes, “The greatest stories in golf happen on courses every day. They are just not being seen...until now.”",
+    "articleThirdSection": " ReelGOLF™ captures on-course play in an easy way.  Golfers simply scan a QR code at the tee box to activate the autonomous videography system, andthe AI-enabled cameras follow and record players shots.  Within minutes, ReelGOLF™ produces and delivers PGA®-inspired videos to golfers as if they are featured on CBS Sports®, NBC Sports® or The GOLF Channel®.",
+    "articleSecondSection": "ReelGOLF™ was invented by Mr. Imes after playing The Old Course at Saint Andrews, the most hallowed grounds in golf.  He wanted a way to preserve that memory.  “Inspiration happens on The Old Course”, Mr. Imes says, “and ReelGOLF™ emerged from the fairways, the sand traps, the greens, and the 19th hole, The Jigger Inn.” Mr. Imes walked away from The Home of Golf® inspired to create a new golf experience for the everyday golfer, the ReelGOLF™ experience.",
+    "articleOneSection": "“I was pleased to see the players’ positive reaction to ReelGOLF™ during the tournament,” says Mr. Imes, founder of HIO Media, Inc. “Technology adoptioncan take years,” he continues, ”at DKR, we affirmed the hidden demand to record a golfer’s on-course experience.  Greater than half the field used the ReelGOLF™ platform to record and share never before seen video footage of non-professional golfers.”",
+    "austinDescription": "Austin, Texas, May 26, 2022 /PRNewswire/ - Hole-In-One (HIO) Media, Inc., a sports technology and media production startup in the golf industry, showcased the first on-course AI-Enabled Video Production system, ReelGOLF™, at Barton Creek Country Club in Austin, Texas.",
+    "comingSoonDescription": "We are working hard to bring you the next generation of golf video. Stay tuned!",
+    "featuredBlogsPosts": "Featured Blogs Posts",
+    "aboutReelGolf": "About ReelGOLF™",
+    "email": "Email:",
+    "source": "SOURCE Hole-in-One Media, Inc.",
+    "articleTitle": "ReelGOLF™ Changes the On-Course Experience for Everyday Golfers",
+    "infoEmail": " press@reelgolf.com",
+    "hioMediaContact": "HIO Media Contact:",
+    "aboutHoleInOne": "About Hole-in-One Media™, Inc.",
+    "articleFirstPart": "With nearly 400 golfers in attendance at the annual Darrell K. Royal (DKR) member-guest tournament, the patented ReelGOLF™ media platform delivered near real-time video footage to players over the three-day event.  With AI-enabled cameras discretely installed at the tee box and green of a signature Par 3, the cameras worked in concert with one another to produce PGA®-inspired videos for each player.  Within minutes, the autonomous video production system seamlessly edited and produced each golfer’s shot and delivered it via the free ReelGOLF™ mobile app.",
+    "articleSecondPart": "“I was pleased to see the players’ positive reaction to ReelGOLF™ during the tournament,” says Mr. Imes, founder of HIO Media, Inc. “Technology adoption can take years,” he continues, ”at DKR, we affirmed the hidden demand to record a golfer’s on-course experience.  Greater than half the field used the ReelGOLF™ platform to record and share never before seen video footage of non-professional golfers.”ReelGOLF™ was invented by Mr. Imes after playing The Old Course at Saint Andrews, the most hallowed grounds in golf.  He wanted a way to preserve that memory.  “Inspiration happens on The Old Course”, Mr. Imes says, “and ReelGOLF™ emerged from the fairways, the sand traps, the greens, and the 19th hole, The Jigger Inn.” Mr. Imes walked away from The Home of Golf® inspired to create a new golf experience for the everyday golfer, the ReelGOLF™ experience.ReelGOLF™ captures on-course play in an easy way.  Golfers simply scan a QR code at the tee box to activate the autonomous videography system, and the AI-enabled cameras follow and record players shots.  Within minutes, ReelGOLF™ produces and delivers PGA®-inspired videos to golfers as if they are featured on CBS Sports®, NBC Sports® or The GOLF Channel®. “With its on-course media platform, ReelGOLF™ is showcasing signature holes for golf courses and changing the way golf is viewed for the everyday golfer”, says Mr. Imes, “The greatest stories in golf happen on courses every day. They are just not being seen...until now.”",
+    "articleThirdPart": "ReelGOLF™ is an AI-Enabled media production platform designed for golf courses.  What started as a vision on The Old Course at St. Andrews has grown into a platform that allow golfers to preserve and share their memories.  Follow ReelGOLF™ @ReelGOLFVids on Facebook, Twitter, Instagram, and Youtube or visit ReelGOLF.com for the latest news and mediaproduction.",
+    "articleFourthPart": "HIO Media is a golf and media technology provider based in Austin, Texas.  Using its patented technologies, HIO Media is capturing the on-course golf experiences for everyday golfers, and chronicling moments for them to sharewith friends and family.",
+    "timeGreats": "All Time Greats"
+  },
+  "players": {
+    "connectWithYourLocalPro": "Connect with a Local Teaching Pro",
+    "connectWithYourLocalProDescription": "With the ReelGOLF™ App, you can now connect with a local PGA Teaching Professional at the course you are playing.  ReelGOLF™ is breaking down the communication barrier that exists between Teaching Pros and individual golfers using our “Get a ReelTIP from a Local Pro” feature. Say goodbye to that nasty slice or wicked hook and take a golf lesson today!",
+    "downloadTheApp": "Download The App",
+    "getAFreeProTip": "Get a Free Pro Tip",
+    "postYourShot": "Instantly Post your shot to Social Media!",
+    "postYourShotDescription": "The share feature within the ReelGOLF™ App allows you to easily share videos of your golf shot with the touch of an icon on Facebook, Twitter, Instagram, and YouTube.  Now friends and, family, and colleagues can see your PGA® quality video of your golf shots from anywhere in the world, just as they happened almost in real-time. Share your golf experience and connect with your network in new ways with ReelGOLF™!.",
+    "reelGolf": "ReelGOLF™",
+    "reelGolfDescription": "Download the ReelGOLF™ App and create a profile before you play one of our partner courses.",
+    "shareYourGolfExperience": "Share your Golf Experience",
+    "featuredShots": "Featured Shots"
+  },
+  "home": {
+    "benefits": "Benefits",
+    "captureThatHoleInOne": "Capture that Hole-in-One!",
+    "captureThatHoleInOneDescription": "Luck, Skill or Both? Hole-in-One’s are hard to make. When you do make that shot of a lifetime, the technology should be in place to record that moment. ReelGOLF™, captures each Hole-in-One shot, allowing golfers to share, brag, and preserve a memory of a lifetime!",
+    "cardHome": "Nam dapibus nisl vitae",
+    "courses": "Courses",
+    "coursesCanBeSeen": "Courses can be seen like never before.",
+    "coursesCanBeSeenDescription": "The greatest moments in golf happen every day on courses. With ReelGOLF™, the world can now see them. Currently, only players on the PGA® Tour are able to record and watch their shots. With ReelGOLF™, partner courses can now capture on-course play, and create PGA® Tour quality videos for guests to share with the world. Welcome to a new, connected way to promote your course and build your brand.",
+    "creatingMemories": "Creating Memories",
+    "creatingMemoriesDescription": "Whether you are a novice golfer or an avid golfer, we all want to cherish the memories we create on the golf course, especially the good ones.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Ut enim ad minim veniam, quis nostrud exercitation ullamco.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+    "fullStory": "The Full Story",
+    "getInTouch": "Get in touch with us",
+    "growinTheGame": "Growing the Game",
+    "growinTheGameDescription": "Who wouldn’t benefit from a golf lesson or a few tips? With the ReelGOLF™ App, players can share their videos with a local golf pro for a complimentary golf tip or to schedule a golf lesson. ReelGOLF™ connects players to teaching Pros with a simple click.",
+    "home": "Home",
+    "howItWorks": "How it Works",
+    "howItWorksDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+    "inspiration": "Inspiration",
+    "justScanAndShare": "Just Scan, Shoot, and Share!",
+    "lona": "Lona",
+    "map": "https://maps.google.com/maps?q=500%20No.%20Capital%20of%20Texas%20Hwy%20Bldg.%202,%20Suite%20204%20Austin,%20Texas%2078746&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    "media": "Media",
+    "ourSolution": "Our Solution",
+    "ourSolutionDescription": "ReelGOLF™ is the first on-course autonomous videography system to create PGA® Pro Tour quality video for the everyday golfer.  With ReelGOLF™, smart cameras are placed discretely near the-boxes and greens. on signature Par 3 holes to capture tee-2-green shots. Simply scan our QR Golf™ code, to record your shot, and the video will be sent to you within minutes. It’s that simple.",
+    "ourStory": "Our Story",
+    "ourStoryDescription": "During his first trip to The Old Course at St. Andrews, our founder realized how historic the moment was to him. However, there was no way to record that experience. He set off on a new journey, to create a solution that could record those memories and change the way golf is viewed for the everyday golfer. That solution today is ReelGOLF™.",
+    "playARound": "Play a round at one of ReelGOLF™’s partner courses.",
+    "players": "Players",
+    "recordAndShare": "Record and Share",
+    "recordAndShareDescription": "With a simple scan of our QR Golf™ code positioned near the tee box, our smart cameras locate you, record your shot, and send a PGA® quality video to you within minutes of getting to the next hole. You can then share your experience on Instagram, Facebook, YouTube, or Twitter with just one click.",
+    "scan": "Scan",
+    "scanDescription": "Simply use the ReelGOLF™ App when it is your shot to scan the QR Golf™ Code located near the tee box of the ReelGOLF™-powered hole.",
+    "share": "Share",
+    "shareDescription": "Within minutes of arriving at the next hole, a PGA® Tour inspired video of your shot is delivered!",
+    "shoot": "Shoot",
+    "shootDescription": "After scanning the QR Golf™ code, our cameras are activated and intelligently identify you to record your shot.",
+    "signatureHoles": "Signature Holes",
+    "signatureHolesDescription": "Every course has that hole, the one every player wants to ace or birdie. With ReelGOLF™, Courses can effectively promote signature holes without having to pay for expensive ads or promotions.",
+    "socialMediaReach": "Social Media Reach",
+    "socialMediaReachDescription": "Social Media strategies can be a challenge for golf courses to create and implement. A golf course’s greatest asset is the course itself. Why not promote it? With ReelGOLF™, we are sharing videos of your course for you, every day, one shot at a time.",
+    "whyReelGolf": "Why ReelGOLF™?",
+    "whyReelGolfDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+  },
+  "icons": {
+    "appStore": "App Store",
+    "appStoreHref": "https://apps.apple.com/mr/app/reelgolf/id1530467867",
+    "googlePlay": "Google Play",
+    "googlePlayHref": "https://play.google.com/store/apps/details?id=com.holeinonemedia.holeinone&hl=en_US&gl=US"
+  },
+  "footer": {
+    "copyRight": "© 2022 ReelGOLF™. All rights reserved.",
+    "inspiration": {
+      "title": "Inspiration",
+      "links": [
+        {
+          "text": "Our Story",
+          "link": "/inspiration#ourStory"
+        },
+        {
+          "text": "The solution",
+          "link": "/inspiration#ourSolution"
+        },
+        {
+          "text": "Autonomous Videographer",
+          "link": "/inspiration#videoGrapher"
+        }
+      ]
+    },
+    "courses": {
+      "title": "Courses",
+      "links": [
+        {
+          "text": "Growing the Game",
+          "link": "/courses#growinTheGame"
+        },
+        {
+          "text": "Current SM Reach",
+          "link": "/courses#socialMediaReach"
+        },
+        {
+          "text": "Courses",
+          "link": "/courses"
+        }
+      ]
+    },
+    "players": {
+      "title": "Players",
+      "links": [
+        {
+          "text": "Benefits",
+          "link": "/players"
+        },
+        {
+          "text": "How to",
+          "link": "/players"
+        }
+      ]
+    },
+    "news": {
+      "title": "In the News",
+      "links": [
+        {
+          "text": "Latest",
+          "link": "/media"
+        },
+        {
+          "text": "Blog",
+          "link": "/media"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "links": [
+        {
+          "text": "Contact us",
+          "link": "/contact"
+        },
+        {
+          "text": "SM Links",
+          "link": "/contact"
+        }
+      ]
+    }
+  }
+}

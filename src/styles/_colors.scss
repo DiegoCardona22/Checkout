@@ -1,0 +1,120 @@
+/* Bootstrap colors override */
+$primary:       #31B2AB;
+$secondary:     #218882;
+$success:       #02B306;
+$info:          #1691EB;
+$warning:       #FC9106;
+$danger:        #EB5050;
+$light:         #F4F3F3;
+$dark:          #1A1D1E;
+$white:         #ffffff;
+$black:         #000000;
+$gray:          #D1D8D9;
+
+/* Theme extra colors */
+$carbon:        #969696;
+$gray-dark:     #959FAF;
+$gray-light:    #8B97A2;
+$gray-greats:   #575C6C;
+$secondary-gray:#e6e6e6;
+$pearl:         #E3E7ED;
+$lunar-gray:    #6B7280;
+$ultramarin:    #064BFC;
+$sky:           transparent;
+$aqua-hover:    #A8ECFF;
+$aqua-secondary:#E7F8FD;
+$pearl-hover:   #DADADA;
+$primary-hover: #42F2D2;
+$primary-light: #E7FDF9;
+$fuchsia:       #B906FC;
+$tag:           #D8D8D8;
+$hero:          #A7E9DD;
+$footer:        #2C3748;
+$bg-main:       #F1F4F8;
+$grand: linear-gradient(90deg, #4CAC9B 0%, #40EFCF 100%);
+$grand2: linear-gradient(180deg, rgba(231,248,253,1) 0%, rgba(231,248,253,1) 50%, rgba(231,248,253,0) 51%, rgba(231,248,253,0) 100%);
+$shadown:        rgba(0, 0, 0, 0.2);
+
+/* Css variables */
+:root {
+  --color-hero:              #{$hero};
+  --color-gradient:          #{$grand};
+  --color-gradient-2:        #{$grand2};
+  --color-mint:              #{$primary};
+  --color-mint-hover:        #{$primary-hover};
+  --color-mint-light:        #{$primary-light};
+  --color-aqua:              #{$secondary};
+  --color-aqua-hover:        #{$aqua-hover};
+  --color-aqua-secondary:    #{$aqua-secondary};
+  --color-punch-green:       #{$success};
+  --color-ultra-aqua:        #{$info};
+  --color-orange:            #{$warning};
+  --color-gray-dark:         #{$gray-dark};
+  --color-gray-light:        #{$gray-light};
+  --color-gray-greats:       #{$gray-greats};
+  --color-salmon:            #{$danger};
+  --color-white:             #{$white};
+  --color-black:             #{$black};
+  --color-pearl:             #{$pearl};
+  --color-pearl-hover:       #{$pearl-hover};
+  --color-background-2:      #{$light};
+  --color-secondary-gray:    #{$secondary-gray};
+  --color-night:             #{$dark};
+  --color-footer-background: #{$footer};
+  --color-carbon:            #{$carbon};
+  --color-lunar-gray:        #{$lunar-gray};
+  --color-ultramarin:        #{$ultramarin};
+  --color-sky:               #{$sky};
+  --color-gray:              #{$gray};
+  --color-tag:               #{$tag};
+  --color-fuchsia:           #{$fuchsia};
+  --bg-main:                 #{$bg-main};
+  --bg-secondary:            #{$secondary};
+  --bg-white:                #{$white};
+  --bg-tag:                  #{$tag};
+  --shadown:                 #{$shadown};
+  --font-primary:            'Lexend';
+  --font-medium:             'Lexend_Medium';
+  --font-semi-bold:          'Lexend_SemiBold';
+  --font-bold:               'Lexend_Bold';
+  --font-inter:              'Inter_Medium';
+}
+
+$theme-colors: (
+  "primary":     $primary,
+  "secondary":   $secondary,
+  "success":     $success,
+  "info":        $info,
+  "warning":     $warning,
+  "danger":      $danger,
+  "light":       $light,
+  "dark":        $dark,
+  "white":       $white,
+  "punch-green": $success,
+  "mint":        $primary,
+  "aqua":        $secondary,
+  "aqua-hover":  $aqua-hover,
+  "ultra-aqua":  $info,
+  "orange":      $warning,
+  "salmon":      $danger,
+  "pearl":       $white,
+  "pearl-hover": $pearl-hover,
+  "background-2":$light,
+  "night":       $dark,
+  "carbon":      $carbon,
+  "lunar-gray":  $lunar-gray,
+  "ultramarin":  $ultramarin,
+  "sky":         $sky,
+  "mint-hover":  $primary-hover,
+  "fuchsia":     $fuchsia
+);
+
+/* Classes are generated from the colors */
+@each $name, $color in $theme-colors {
+  .#{'' + $name}-bg {
+    background: $color;
+  }
+  .#{'' + $name} {
+    color: $color;
+  }
+}

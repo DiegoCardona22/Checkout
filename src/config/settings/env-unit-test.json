@@ -1,0 +1,23 @@
+{
+  "environment": {
+    "name": "unitTest"
+  },
+  "localStorage": {
+    "isEnabled": false
+  },
+  "reduxLogger": {
+    "isEnabled": false
+  },
+  "serviceMocker": {
+    "delayResponse": 0,
+    "isEnabled": true,
+    "include": [
+      "mockServiceSecurityLogin"
+    ]
+  },
+  "services": {
+    "security": "localhost:8080",
+    "api1": "localhost:8081",
+    "api2": "localhost:8082"
+  }
+}

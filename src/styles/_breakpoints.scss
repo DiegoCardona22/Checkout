@@ -1,0 +1,63 @@
+@import "~bootstrap/scss/mixins/breakpoints.scss";
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+/* mixins & functions */
+@mixin breakpoint($point) {
+  @if $point == xxl {
+    @media (min-width: 1320px) { @content ; }
+  }
+  @else if $point == xl {
+    @media (max-width: 1200px) { @content ; }
+  }
+  @else if $point == lg {
+    @media (max-width: 992px) { @content ; }
+  }
+  @else if $point == md {
+    @media (max-width: 768px) { @content ; }
+  }
+  @else if $point == sm {
+    @media (max-width: 576px) { @content ; }
+  }
+}
+
+// Bootstrap code
+// Responsive containers that are 100% wide until a breakpoint
+@each $breakpoint, $container-max-width in $container-max-widths {
+  @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+    %responsive-container-#{$breakpoint} {
+      max-width: $container-max-width !important;
+    }
+
+    // Extend each breakpoint which is smaller or equal to the current breakpoint
+    $extend-breakpoint: true;
+
+    @each $name, $width in $grid-breakpoints {
+      @if ($extend-breakpoint) {
+        .container#{breakpoint-infix($name, $grid-breakpoints)} {
+          @extend %responsive-container-#{$breakpoint};
+        }
+
+        // Once the current breakpoint is reached, stop extending
+        @if ($breakpoint == $name) {
+          $extend-breakpoint: false;
+        }
+      }
+    }
+  }
+}

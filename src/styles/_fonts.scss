@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/Lexend/Lexend-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend-Regular';
+  src: url('/fonts/Lexend/Lexend-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend_Medium';
+  src: url('/fonts/Lexend/Lexend-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend_SemiBold';
+  src: url('/fonts/Lexend/Lexend-SemiBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend_Bold';
+  src: url('/fonts/Lexend/Lexend-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter_Medium';
+  src: url('/fonts/Inter/Inter-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*  Theme Typography - font families */
+$font-primary: "Lexend";
+$font-regular: "Lexend-Regular";
+$font-medium: "Lexend_Medium";
+$font-semi-bold: "Lexend_SemiBold";
+$font-bold: "Lexend_Bold";
+$font-inter: "Inter_Medium";
+
+$font_main: $font-medium, -apple-system, Lexend, sans-serif;
+$font_titles: $font-medium, -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+/* Bootstrap override base font-family */
+$font-family-sans-serif: $font-medium;
+
+/* Theme Typography - font sizes */
+$font_size_xsmall: 12px;
+$font_size_small: 15px;
+$font_size_regular: 16px;
+$font_size_large: 22px;
+
+$font_size_h1: 55px;
+$font_size_h2: 34px;
+$font_size_h3: 26px;
+$font_size_h4: 20px;
+$font_size_h5: 18px;
+$font_size_h6: 16px;

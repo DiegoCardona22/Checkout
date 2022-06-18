@@ -1,0 +1,15 @@
+{
+    "environment": {
+      "name": "production"
+    },
+    "serviceMocker": {
+      "include": [
+        "mockServiceSecurityLogin"
+      ] 
+    },
+    "services": {
+      "security": "localhost:8081",
+      "api1": "localhost:8080",
+      "api2": "localhost:8080"
+    }
+}

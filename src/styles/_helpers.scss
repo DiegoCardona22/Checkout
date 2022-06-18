@@ -1,0 +1,48 @@
+@use 'sass:math';
+
+.bold {
+  font-family: var(--font-primary-bold);
+}
+
+$border_radius: 20px;
+$border_radius_1: 200px;
+
+$shadow_1: 0px 17px 13px 0px #192c4b05;
+$shadow_2: 0px 1px 2px rgba(0, 0, 0, 0.05);
+$shadow_3: 0 33px 88px 0 #1d0e6211;
+
+@mixin text-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+$html-font-size: 16px;
+
+@function stripUnit($value) {
+  @return math.div($value, $value * 0 + 1);
+}
+
+@function rem($pxValue) {
+  @return #{math.div(stripUnit($pxValue), stripUnit($html-font-size))}rem;
+}
+
+.ellipsis {
+  @include text-ellipsis();
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.pointer {
+  cursor: pointer;
+}

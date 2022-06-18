@@ -1,0 +1,17 @@
+export type variants =
+  | 'h2'
+  | 'h3'
+  | 'h2-bold'
+  | 'body-big'
+  | 'body'
+  | 'body-small'
+  | 'body-xs-small'
+  | 'body-big-bold'
+  | 'body-bold'
+  | 'body-small-bold'
+  | 'capital-max'
+  | 'capital-min'
+  | 'small-line'
+  | 'title1-italic'
+  | 'title2-italic'
+  | 'span';
