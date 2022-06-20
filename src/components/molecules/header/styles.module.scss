@@ -1,0 +1,74 @@
+@import "../../../styles/breakpoints";
+
+.header {
+  position: sticky;
+  background: var(--color-night);
+  width: 100%;
+  white-space: nowrap;
+}
+.header__menu {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  a {
+    white-space: nowrap;
+  }
+}
+.wrapper {
+  padding: 7px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.header__logo {
+  cursor: pointer;
+  img {
+    height: 2.2rem;
+  }
+}
+.header__btns {
+  display: block;
+}
+.header__option {
+  font-size: 17px;
+  margin-right: 5px;
+  padding: 0 10px 0 20px;
+}
+
+.link {
+  display: flex;
+  color: var(--color-pearl);
+  align-items: center;
+  text-decoration: none;
+  margin: 0 16px;
+  font-size: 14px;
+  font-family: var(--font-medium);
+  line-height: 17px;
+  position: relative;
+  text-align: center;
+  &:hover {
+    color: var(--color-mint);
+  }
+  @include breakpoint(lg) {
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+}
+
+.link.active {
+  color: var(--color-mint);
+  &::after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid var(--color-mint);
+    width: calc(100% + 32px);
+    bottom: -24px;
+    left: -16px;
+    @include breakpoint(lg) {
+      content: none;
+    }
+  }
+}

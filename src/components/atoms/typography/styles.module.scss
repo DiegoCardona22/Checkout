@@ -1,0 +1,101 @@
+@import '../../../styles/helpers';
+
+.h2-bold,
+.body-bold {
+  font-family: var(--font-bold);
+}
+
+.h2,
+.h3,
+.body-big-bold,
+.body-small-bold,
+.capital-max {
+  font-family: var(--font-semi-bold);
+}
+
+.body-big,
+.body,
+.body-small,
+.body-xs-small,
+.capital-min,
+.small-line {
+  font-family: var(--font-medium);
+}
+
+.h2,
+.h2-bold {
+  font-size: rem(36);
+  line-height: rem(44);
+}
+
+.h3 {
+  font-size: rem(24);
+  line-height: rem(29);
+}
+
+.body-big-bold,
+.body-big {
+  font-size: rem(18);
+  line-height: rem(22);
+}
+
+.body,
+.body-bold {
+  font-size: rem(16);
+  line-height: rem(20);
+}
+
+.body-small,
+.body-small-bold,
+.small-line {
+  font-size: rem(14);
+  line-height: rem(17);
+}
+
+.body-xs-small,
+.capital-max {
+  font-size: rem(12);
+  line-height: rem(15);
+}
+
+.capital-min,
+.capital-max {
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.capital-min {
+  font-size: rem(10);
+  line-height: rem(12);
+}
+
+.small-line {
+  text-decoration-line: underline;
+}
+
+.title1-italic,
+.title2-italic {
+  font-family: var(--font-title);
+}
+
+.title1-italic {
+  font-size: rem(48);
+}
+
+.title2-italic {
+  font-size: rem(36);
+  line-height: rem(68);
+}
+
+.span {
+  font-size: rem(16);
+}
+
+.h2, .h3 {
+  clear: both;
+  font-family: var(--font-semi-bold), -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  position: relative;
+  text-align: inherit;
+}

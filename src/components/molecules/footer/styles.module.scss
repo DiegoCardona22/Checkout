@@ -1,0 +1,81 @@
+@import "../../../styles/breakpoints";
+
+.footer {
+  background-color: var(--color-background-2);
+  padding: 32px 0 24px;
+  @include breakpoint(lg) {
+    text-align: center;
+  }
+}
+
+.conectButton {
+  @include breakpoint(lg) {
+    margin: 0 auto 24px auto;
+  }
+}
+
+.footerLogo {
+  img {
+    height: 3rem;
+  }
+}
+
+.footerText {
+  color: #969696;
+  margin-left: 0;
+  max-width: 30rem;
+  margin-bottom: 26px;
+  margin-top: 24px;
+  @include breakpoint(lg) {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+.footerLinkText {
+  color: #969696;
+  font-size: 12px;
+}
+
+.footerTitle {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+  position: relative;
+  color: var(--color-night)
+}
+
+.footerList {
+  margin-bottom: 2rem;
+  right: 0;
+  padding: 0;
+
+  li {
+    margin-bottom: 0.5rem;
+    @include breakpoint(lg) {
+      text-align: center;
+    }
+
+    a {
+      color: var(--color-carbon);
+      text-decoration: none;
+      &:hover {
+        color: var(--color-mint) !important;
+        padding-left: 0.5rem;
+      }
+    }
+  }
+}
+
+.copyright {
+  margin-bottom: 0;
+  margin-top: 26px;
+  text-align: center;
+  color: var(--color-carbon);
+
+  p {
+    color: rgb(165, 165, 165);
+    font-size: 1rem;
+    margin: 0;
+    padding: 2rem 0 2rem;
+  }
+}

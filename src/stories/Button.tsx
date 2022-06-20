@@ -1,4 +1,3 @@
-import React from 'react';
 import './button.css';
 
 interface ButtonProps {
@@ -40,6 +39,7 @@ export const Button = ({
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
       style={{ backgroundColor }}
+      // eslint-disable-next-line react/jsx-props-no-spreading
       {...props}
     >
       {label}

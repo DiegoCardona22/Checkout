@@ -2,15 +2,11 @@
 import classNames from 'classnames';
 import { Button, Spinner } from 'react-bootstrap';
 
-// @styles
-import classes from './styles.module.scss';
-
 type ButtonProps = {
   className?: string;
   dataTestId?: string;
   disabled?: boolean;
   eventType?: string;
-  type?: 'button' | 'submit' | 'reset';
   id?: string;
   label: string;
   loading?: boolean;
@@ -18,6 +14,7 @@ type ButtonProps = {
   size?: 'lg' | 'sm';
   sizeIcon?: 'lg' | 'sm';
   startIcon?: string;
+  type?: 'button' | 'submit' | 'reset';
   variant?: 'primary' | 'primary-outline' | 'primary-outline-white' | 'dark';
 };
 
@@ -27,22 +24,16 @@ const ActionButton = ({
   disabled = false,
   eventType = '',
   id = 'action-button',
-  type,
   label,
   loading = false,
   onClick = () => null,
   size,
   sizeIcon = 'sm',
   startIcon,
+  type,
   variant = 'primary'
 }: ButtonProps) => {
   const textClass = (variant === 'primary' || variant === 'primary-outline-white') ? 'text-white' : 'text-dark';
-
-  const customVariant = {
-    dark: classes.dark,
-    'primary-outline': classes['primary-outline'],
-    'primary-outline-white': classes['primary-outline-white']
-  } as unknown as { [key: string]: string };
 
   return (
     <Button
@@ -51,9 +42,7 @@ const ActionButton = ({
       size={size}
       type={type}
       className={classNames(
-        classes.button,
         className,
-        customVariant[variant] ?? `btn-${variant}`,
         textClass
       )}
       onClick={onClick}
@@ -64,13 +53,12 @@ const ActionButton = ({
       {startIcon && (
         <i
           className={classNames(
-            classes['start-icon'],
             sizeIcon,
             startIcon
           )}
         />
       )}
-      {loading && <Spinner size="sm" animation="border" className={classes.loading} />}
+      {loading && <Spinner size="sm" animation="border" />}
       <span>{label}</span>
     </Button>
   );

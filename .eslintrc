@@ -22,7 +22,7 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "arrow-parens": 0,
-    "object-curly-spacing": "off",
+    "object-curly-spacing": "error",
     "semi": "off",
     "block-spacing": "off",
     "arrow-body-style": "off",

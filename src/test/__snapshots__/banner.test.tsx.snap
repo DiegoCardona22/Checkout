@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the component <Banner /> Should render the component correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Testing the component <Banner /> Should show the image 1`] = `ReactWrapper {}`;

@@ -1,0 +1,56 @@
+.inputCards {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 15px;
+  font-size: 20px !important;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+.placeOrderButton {
+  width: 90%;
+  position: absolute;
+  left: 109.5%;
+  top: 180%;
+  z-index: 1;
+  border-radius: 0px !important;
+  background-color: rgb(20, 128, 22) !important;
+  span {
+    color: #fff !important;
+    font-size: 1.2rem !important;
+  }
+  &:hover {
+    background-color: rgb(35, 112, 44) !important;
+  }
+  @media screen and (max-width: 768px) {
+    top: 330%;
+    transform: translateX(-116%);
+  }
+}
+
+.placeOrderButtonSave {
+  width: 90%;
+  position: absolute;
+  left: 109.5%;
+  top: 105%;
+  z-index: 1;
+  border-radius: 0px !important;
+  background-color: rgb(20, 128, 22) !important;
+  span {
+    color: #fff !important;
+    font-size: 1.2rem !important;
+  }
+  &:hover {
+    background-color: rgb(35, 112, 44) !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    top: 263%;
+    transform: translateX(-116%);
+  }
+}

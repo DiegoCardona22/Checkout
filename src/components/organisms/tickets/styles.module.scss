@@ -1,0 +1,47 @@
+.ticketsButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  span {
+    font-size: 20px;
+  }
+}
+
+.ticketsIconContainer {
+  i {
+    font-size: 30px;
+  }
+}
+
+.actionButton {
+  border-radius: 40px;
+  span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+.ticketsCardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.ticketsCardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0px !important;
+  padding: 20px;
+  border-bottom: none;
+}

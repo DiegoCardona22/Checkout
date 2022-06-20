@@ -3,14 +3,10 @@ body {
   line-height: 20px;
   color: $dark;
   font-family: $font-primary, sans-serif;
-  background-image: url("/assets/images/ContactBackground.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100%;
-  &.loading-open {
-    overflow: hidden;
-  }
 }
 
 ul {
@@ -83,31 +79,4 @@ h4 {
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.hero-image {
-  @media screen and (max-width: 576px) {
-    background-position: 33%;
-  }
-}
-
-.hero-howItWorks {
-  @media screen and (max-width: 576px) {
-    background-position: 91%
-  }
-}
-
-.hero-courses {
-  @media screen and (max-width: 576px) {
-    background-position: 20%;
-  }
-}
-
-.hero-benefits,
-.hero-players,
-.hero-inspiration
-{
-  @media screen and (max-width: 576px) {
-    background-position: 50%;
-  }
 }
