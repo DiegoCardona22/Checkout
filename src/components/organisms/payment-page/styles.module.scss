@@ -36,7 +36,8 @@
   border-radius: 0;
   padding: 15px;
   font-weight: normal !important;
-  height: 105%;
+  height: 110%;
+  padding-bottom: 20px;
   p {
     font-weight: 600;
     margin-bottom: 5px;
@@ -105,17 +106,17 @@
 .addCardButton {
   margin: 0px !important;
   padding: 0px !important;
-  background: white;
+  background: var(--color-white);
   &:hover {
-    background: white !important;
+    background: var(--color-white) !important;
   }
   &:focus {
     outline: none !important;
-    background: white !important;
-    border-color: white !important;
+    background: var(--color-white) !important;
+    border-color: var(--color-white) !important;
     box-shadow: none !important;
   }
   &:active {
-    background: white !important;
+    background: var(--color-white) !important;
   }
 }

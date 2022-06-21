@@ -1,4 +1,4 @@
-# ReelGolf
+# Checkout (Celerik test) with Bootstrap, Jest Testing, Vercel Deployment, Storybooks, Stripe Implementation, Sass, Responsive Design
 
 ## Installation
 
@@ -6,11 +6,11 @@
 Download and clone this repository using
 This project was developed
 ```
-git clone https://github.com/HIOMedia/reelgolf.com
+git clone https://github.com/DiegoCardona22/Checkout
 ```
 Install dependencies with:
 ```
-npm install
+npm install --f (The reason ? is because React 18 are very new to adapte from another librarys)
 ```
 Finally, run this project using:
 ```
@@ -18,30 +18,6 @@ npm run dev
 ```
 
 ---
-##### Run different environments
-To avoid Git converting from LF to CRLF, run the following commands:
-```shell
-git config --global core.autocrlf false
-git config --global core.eol lf
-git rm --cached -r .
-git reset --hard
-```
----
-##### Run different environments
-Next Boilerplate has support for many different environments right now and running this project with ```npm run dev``` will only deploy a development version in your browser.
-You can set an environment variable for any of these before running ```npm run dev``` command
-```
-SET REACT_APP_ENVIRONMENT=local
-SET REACT_APP_ENVIRONMENT=qa
-SET REACT_APP_ENVIRONMENT=production
-```
-If needed, you can change some of the following configurations in any ```env-{NAME}.json``` file located at ```/config/settings```
-
-- Any of the microservices root URL
-- Service Mocker configuration
-- Redux middleware configuration
-- Mocked third party APIs authorizations *(Please, don't leave any of these keys in your production deployment)*
-
 ##### Build
 For building this code you can simply run
 ```
@@ -142,75 +118,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Production notes
 
-Written originally by Patrick Paul on 2022/06/08.
-
-## Production deployment
-
-Configure AWS EB CLI:
-
-```
-pip install awsebcli
-
-eb init
-```
-
-Deploy to environment like `reelgolf-cms-sandbox`:
-
-```
-eb use reelgolf-cms-sandbox
-
-# monitor log until ^C
-eb deploy
-
-# do not monitor long
-eb deploy --nohang
-```
-
-*IMPORTANT*: Beanstalk only uses committed work by default.
-
-You can deploy staged work (e.g. when messing with `.ebextensions/` config files) like so:
-
-```
-git add .
-eb deploy --staged
-git reset HEAD --
-```
-
-## Production SSH
-
-Obtain the project's shared SSH keypair, or perform:
-
-```
-eb ssh --setup
-```
-
-Then to SSH inside EC2 instance:
-
-```
-eb ssh
-```
-
-## Deployment errors
-
-Generally, errors are logged to `eb-engine.log` and can also be found in AWS CloudWatch at a log group named like `/aws/elasticbeanstalk/reelgolf-cms-sandbox/var/log/eb-engine.log`.
-
-You can also SSH during deployment using above information.
-
-## Initial Elastic Beanstalk setup notes
-
-1. Start with the Node.js platform "Sample Application" project
-2. Deploy Beanstalk (wait...)
-3. Re-configure Beanstalk:
-    a. Load Balancer: Add listener port 443 using [correct security policy bundle for application-type load balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html#describe-ssl-policies)
-    b. Add a PostgreSQL database v14.x+ (and ensure de-couple on delete is selected for production)
-    c. Do not include in a VPC (use default VPC and automatically created RDS sec. groups)
-    d. Add the `shared@touchto.io` SSH keypair for accessing EC2 instances
-    e. Set the env vars (see `.env.template` for what is required, e.g. `NODE_ENV`, `JWT_SECRET`, etc.)
-    f. Set appropriate instance size (Strapi requires a lot of memory so `t2.medium` is suggested)
-    g. Ignore health check (for future deployments)
-    h. Enable Log Streaming to Cloudwatch (7 day retention)
-4. Deploy Beanstalk (wait...)
-5. Add a Route53 `A` record which is alias to the Beanstalk URL (e.g. `cms-dev.reelgolf.com`)
-6. Deploy CMS app using above deployment instructions
-7. Enter RDS database and enable delete protection (if working with production)
-8. [Enable Application version lifecycle management](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/applications-lifecycle.html) to automatically delete 51st+ versions so that old versions don't consume cloud disk space
+Written originally by Diego Cardona on 2022/06/20.

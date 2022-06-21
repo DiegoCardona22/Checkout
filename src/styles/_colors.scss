@@ -34,6 +34,8 @@ $bg-main:       #F1F4F8;
 $grand: linear-gradient(90deg, #4CAC9B 0%, #40EFCF 100%);
 $grand2: linear-gradient(180deg, rgba(231,248,253,1) 0%, rgba(231,248,253,1) 50%, rgba(231,248,253,0) 51%, rgba(231,248,253,0) 100%);
 $shadown:        rgba(0, 0, 0, 0.2);
+$green:          rgb(20, 128, 22);
+$green-hover:    rgb(35, 112, 44);
 
 /* Css variables */
 :root {
@@ -50,6 +52,8 @@ $shadown:        rgba(0, 0, 0, 0.2);
   --color-ultra-aqua:        #{$info};
   --color-orange:            #{$warning};
   --color-gray-dark:         #{$gray-dark};
+  --color-green:             #{$green};
+  --color-green-hover:       #{$green-hover};
   --color-gray-light:        #{$gray-light};
   --color-gray-greats:       #{$gray-greats};
   --color-salmon:            #{$danger};

@@ -92,7 +92,7 @@ const CheckoutForm = ({
           <ActionButton
             label="Save"
             type="submit"
-            className={classes.placeOrderButtonSave}
+            className={error ? classes.placeOrderButtonError : classes.placeOrderButtonSave}
           />
         </div>
       )}

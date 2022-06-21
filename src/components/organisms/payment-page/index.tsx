@@ -75,7 +75,7 @@ const PaymentsPage = ({
 
   return (
     <>
-      <Row className="mt-3 mb-3">
+      <Row className="mt-3 mb-5">
         <Col xs={12} sm={12} md={12} lg={6}>
           <Row>
             <Col xs={12} sm={12} md={12} lg={12}>
@@ -120,7 +120,7 @@ const PaymentsPage = ({
                             />
                           </FormCheck>
                         </Col>
-                        <Col lg={2}>
+                        <Col lg={2} className="h-50">
                           {paymentInfo?.paymentMethod?.card?.brand
                           === "visa" && <Image src="/assets/images/visa.png" className="img-fluid bg-white"/>}
                           {paymentInfo?.paymentMethod?.card?.brand

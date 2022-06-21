@@ -9,23 +9,23 @@
   border: 0;
   outline: 0;
   border-radius: 4px;
-  background: white;
+  background: var(--color-white);
 }
 
 .placeOrderButton {
   width: 90%;
   position: absolute;
   left: 109.5%;
-  top: 180%;
+  top: 175%;
   z-index: 1;
   border-radius: 0px !important;
-  background-color: rgb(20, 128, 22) !important;
+  background-color: var(--color-green) !important;
   span {
-    color: #fff !important;
+    color: var(--color-white) !important;
     font-size: 1.2rem !important;
   }
   &:hover {
-    background-color: rgb(35, 112, 44) !important;
+    background-color: var(--color-green-hover) !important;
   }
   @media screen and (max-width: 768px) {
     top: 330%;
@@ -40,13 +40,35 @@
   top: 105%;
   z-index: 1;
   border-radius: 0px !important;
-  background-color: rgb(20, 128, 22) !important;
+  background-color: var(--color-green) !important;
   span {
-    color: #fff !important;
+    color: var(--color-white) !important;
     font-size: 1.2rem !important;
   }
   &:hover {
-    background-color: rgb(35, 112, 44) !important;
+    background-color: var(--color-green-hover) !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    top: 263%;
+    transform: translateX(-116%);
+  }
+}
+
+.placeOrderButtonError {
+  width: 90%;
+  position: absolute;
+  left: 109.5%;
+  top: 95%;
+  z-index: 1;
+  border-radius: 0px !important;
+  background-color:  var(--color-green) !important;
+  span {
+    color: var(--color-white) !important;
+    font-size: 1.2rem !important;
+  }
+  &:hover {
+    background-color: var(--color-green-hover) !important;
   }
 
   @media screen and (max-width: 768px) {
