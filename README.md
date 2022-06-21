@@ -37,11 +37,13 @@ npx http-server ./build
 
 React Boilerplate has many other scripts that are pretty helpful for any Dev Team.
 
-- ```lintj``` - You can use this for checking if any change in the code is syntactically correct according to the project's structure.
+- ```lint``` - You can use this for checking if any change in the code is syntactically correct according to the project's structure.
+
+- ```lint -- --fix``` You can use this for resolve if we have some error according to the project's structure.
 
 - ```test``` - this script is related to QA suite, it'll help you to run Unit Tests implemented for this project and collecting the coverage of the tested code.
 
-- ```storybooks``` - This script will run a new server in ```localhost:6006``` with documentation related to components implemented in this project (Atoms, Organisms and Templates).
+- ```storybook``` - This script will run a new server in ```localhost:6006``` with documentation related to components implemented in this project (Atoms, Organisms and Templates).
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

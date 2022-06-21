@@ -1,13 +1,14 @@
 // @packages
-import { useState, useEffect } from "react";
-import { NextPage } from "next";
 import { Container, Row, Col } from "react-bootstrap";
+import { NextPage } from "next";
 import { useRouter } from "next/router";
+import { useState, useEffect } from "react";
 
 // @scripts
-import { CardItems } from "src/components/atoms/card/card-items";
-import Events from "src/components/molecules/events";
 import ActionButton from "src/components/atoms/action-button";
+import Events from "src/components/molecules/events";
+import { CardItems } from "src/components/atoms/card/card-items";
+import { config } from "src/config";
 
 const ArtistasAvailabilityPage: NextPage = () => {
   const [artistInfo, setArtistInfo] = useState([] as any);
@@ -25,7 +26,7 @@ const ArtistasAvailabilityPage: NextPage = () => {
   return (
     <Container>
       <Row>
-        <Col>{artistInfo[0] ? <h1>Events</h1> : <h1>{id}</h1>}</Col>
+        <Col>{artistInfo[0] ? <h1>{config.text.events.events}</h1> : <h1>{id}</h1>}</Col>
       </Row>
       <Row>
         <Col xs={12} sm={12} md={12} lg={12} className="my-4">
@@ -46,9 +47,9 @@ const ArtistasAvailabilityPage: NextPage = () => {
           ))}
           {artistInfo[0]?.events === null && (
             <div>
-              <h3>No hay eventos para este artista :(</h3>
+              <h3>{config.text.events.noEvents}</h3>
               <ActionButton
-                label="Volver"
+                label="Back"
                 onClick={() => router.push("/")}
                 className="w-100 rounded-0"
               />

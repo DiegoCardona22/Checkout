@@ -1,6 +1,6 @@
 // @packages
-import { NextPage } from 'next';
 import { Container, Row, Col } from 'react-bootstrap';
+import { NextPage } from 'next';
 
 // @scripts
 import Card from 'src/components/atoms/card';

@@ -43,8 +43,8 @@ const Events = ({
       {index === 0 && (
         <Card.Header className={classes.eventsCardHeader}>
           {events < 2
-            ? `${events} Próximo evento`
-            : `${events} Próximos eventos`}
+            ? `${events} Next Event`
+            : `${events} Upcoming Events`}
         </Card.Header>
       )}
       <Card.Body>
@@ -62,7 +62,7 @@ const Events = ({
           </Col>
           <Col xs={12} sm={12} md={2} lg={2} className={classes.eventsButton}>
             <ActionButton
-              label="Buscar Boletos"
+              label="Search Tickets"
               onClick={handleSearchTickets}
             />
           </Col>

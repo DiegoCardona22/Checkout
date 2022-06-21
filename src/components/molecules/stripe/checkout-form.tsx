@@ -1,36 +1,37 @@
 // @packages
 import { Form, Alert } from "react-bootstrap";
+import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import {
-  CardNumberElement,
-  CardExpiryElement,
   CardCvcElement,
-  useStripe,
-  useElements
+  CardExpiryElement,
+  CardNumberElement,
+  useElements,
+  useStripe
 } from "@stripe/react-stripe-js";
 
 // @scripts
 import ActionButton from "src/components/atoms/action-button";
+import { config } from "src/config";
 
 // @styles
 import classes from "./styles.module.scss";
-import { useRouter } from "next/router";
 
 type PaymentInfoProps = {
+  cardIsChecked: boolean;
   paymentInfo: any;
   setPaymentInfo: any;
-  cardIsChecked: boolean;
   termsIsChecked: boolean;
 };
 
 const CheckoutForm = ({
+  cardIsChecked,
   paymentInfo,
   setPaymentInfo,
-  cardIsChecked,
   termsIsChecked
 }: PaymentInfoProps) => {
-  const [error, setError] = useState(null);
   const [buyed, setBuyed] = useState(false);
+  const [error, setError] = useState(null);
 
   const router = useRouter();
 
@@ -71,22 +72,22 @@ const CheckoutForm = ({
           />
           {buyed && (
             <Alert variant="success" className="mt-3">
-              <Alert.Heading>Payment successful</Alert.Heading>
+              <Alert.Heading>{config.text.stripe.paymentSuccess}</Alert.Heading>
               <p>
-                Your payment has been processed successfully.
+                {config.text.stripe.paymentSuccessMessage}
                 <br />
-                You will receive an email with your tickets.
+                {config.text.stripe.receiveEmail}
               </p>
             </Alert>
           )}
         </>
       ) : (
         <div className="mt-4">
-          <p>Card number</p>
+          <p>{config.text.stripe.cardNumber}</p>
           <CardNumberElement className={classes.inputCards} />
-          <p>Expiration date</p>
+          <p>{config.text.stripe.expirationDate}</p>
           <CardExpiryElement className={classes.inputCards} />
-          <p>CVC</p>
+          <p>{config.text.stripe.cvc}</p>
           <CardCvcElement className={classes.inputCards} />
           {error && <Alert variant="danger">{error}</Alert>}
           <ActionButton

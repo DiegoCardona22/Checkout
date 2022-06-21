@@ -16,13 +16,13 @@ type TicketsInfoProps = {
 }
 
 type EventsInfoProps = {
-  tickets: TicketsInfoProps[];
-  id: string;
-  day: any;
-  title: string;
-  imageUrl: string;
-  description: string;
   date: any;
+  day: any;
+  description: string;
+  id: string;
+  imageUrl: string;
+  tickets: TicketsInfoProps[];
+  title: string;
 }
 
 const TicketsPage: NextPage = () => {

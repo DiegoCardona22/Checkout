@@ -21,7 +21,7 @@
 }
 
 .footerText {
-  color: #969696;
+  color: var(--color-carbon);
   margin-left: 0;
   max-width: 30rem;
   margin-bottom: 26px;
@@ -33,7 +33,7 @@
 }
 
 .footerLinkText {
-  color: #969696;
+  color: var(--color-carbon);
   font-size: 12px;
 }
 
@@ -73,7 +73,7 @@
   color: var(--color-carbon);
 
   p {
-    color: rgb(165, 165, 165);
+    color: var(--color-shadowCarbon);
     font-size: 1rem;
     margin: 0;
     padding: 2rem 0 2rem;

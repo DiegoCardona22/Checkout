@@ -15,7 +15,7 @@
     line-height: 0px !important;
     font-size: 14px;
     font-family: Averta, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    color: rgba(38, 38, 38, 0.65);
+    color: var(--color-shadowMask);
   }
 }
 
@@ -25,7 +25,7 @@
   span {
     line-height: 0px !important;
     font-size: 0.8rem;
-    color: rgba(38, 38, 38, 0.65);
+    color: var(--color-shadowMask);
   }
   @media screen and (max-width: 768px) {
     margin-bottom: 15px;
@@ -47,7 +47,56 @@
     font-weight: normal !important;
     font-family: Averta, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 0.8rem;
-    color: rrgb(38, 38, 38);
+    color: var(--color-shadowMaskDark);
+  }
+}
+.cards {
+  max-width: 50px !important;
+}
+
+.collapseButton {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: 5px;
+  height: 5px;
+  background-color: var(--color-white) !important;
+  border-radius: 100%;
+  border-color: var(--color-white) !important;
+  i {
+    color: var(--color-black) !important;
+  }
+  &:hover {
+    background-color: var(--color-white) !important;
+  }
+  &:active {
+    background-color: var(--color-white) !important;
+  }
+  &:focus {
+    background-color: var(--color-white) !important;
+    box-shadow: none !important;
+    border-color: var(--color-white) !important;
+  }
+}
+
+.totalContainerExpand {
+  border-radius: 0;
+  padding: 15px;
+  font-weight: normal !important;
+  height: auto;
+  padding-bottom: 20px;
+  p {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-family: Averta, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  }
+  span {
+    font-weight: normal !important;
+    font-family: Averta, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 0.8rem;
+    color: var(--color-shadowMaskDark);
   }
 }
 
@@ -59,14 +108,14 @@
 .paymentsInfo {
   display: flex;
   padding: 15px 20px;
-  background-color: rgb(2, 108, 223, 0.1);
+  background-color: var(--color-blue-hover);
   margin-top: 10px;
 }
 
 .paymentsAddCardContainer {
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #f5f5f5;
+  border-bottom: 1px solid var(--color-secondary-gray);
   padding: 10px 0;
   * {
     margin-top: 10px;
@@ -79,7 +128,7 @@
     line-height: 15px !important;
     font-size: 0.8rem;
     font-family: Averta, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    color: rgb(2, 108, 223);
+    color: var(--color-blue);
     cursor: pointer;
   }
 }
@@ -93,12 +142,12 @@
     font-weight: 600 !important;
     line-height: 20px !important;
     font-size: 20px;
-    color: rgb(38, 38, 38) !important;
+    color: var(--color-shadowMaskDark) !important;
   }
 }
 
 .link {
-  color: rgb(2, 108, 223) !important;
+  color: var(--color-blue) !important;
   cursor: pointer !important;
   font-size: 16px !important;
 }

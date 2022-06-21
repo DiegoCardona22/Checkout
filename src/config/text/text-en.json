@@ -1,9 +1,40 @@
 {
   "appName": "Celerik Checkout",
+  "ranking": "Ranking",
+  "profile": "Profile",
+  "marketplace": "Marketplace",
+  "collections": "Collections",
   "payments": {
+    "cancelOrder": "Cancel Order",
     "delivery": "Delivery",
+    "deliveryDescription": "This tickets will be transferred directly to you from a trusted seller, We'll email you instructions on how to accept them on the original ticket provider´s mobile app.",
+    "fees": "Fees",
+    "free": "Free",
+    "iHaveReadCurrently": "I have read and agree to the current",
     "mobileEntry": "Mobile Entry - Free",
-    "deliveryDescription": "This tickets will be transferred directly to you from a trusted seller, We'll email you instructions on how to accept them on the original ticket provider´s mobile app."
+    "mobileEntryFree": "Mobile Entry",
+    "noRefund": "*All Sales Final - No Refunds",
+    "notes": "Notes from seller",
+    "notesFromSeller": "xfr XFER Proof of at least on dose COVID-19 vaccination for ages 5 to 11 and guests ages 12 andup will be required to show proof of two COVID-19 vaccine does or one dose of the Johnson & Johnson vaccine Masks must be warn.",
+    "orderProcessingFees": "Order Processing Fee",
+    "payment": "Payment",
+    "termsOfUse": " Terms of Use.",
+    "tickets": "Tickets",
+    "total": "Total",
+    "useCard": "Use Credit / Debit Card",
+    "vipTickets": "Vip Tickets"
+  },
+  "stripe": {
+    "paymentSuccess": "Payment successful",
+    "paymentSuccessMessage": "Your payment has been processed successfully.",
+    "receiveEmail": "You will receive an email with your tickets.",
+    "cardNumber": "Card number",
+    "expirationDate": "Expiration date",
+    "cvc": "CVC"
+  },
+  "events": {
+    "events": "Events",
+    "noEvents": "There are no events for this artist :("
   },
   "footer": {
     "content": "Checkout project for tests.",

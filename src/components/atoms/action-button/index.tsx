@@ -56,6 +56,7 @@ const ActionButton = ({
             sizeIcon,
             startIcon
           )}
+          aria-hidden="true"
         />
       )}
       {loading && <Spinner size="sm" animation="border" />}
